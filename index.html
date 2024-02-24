@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head >
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Experiment List</title>
+    <title>LDCO VLab</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
@@ -20,11 +20,48 @@
       <h1>LDCO LAB</h1>
     </header>
     <main>
-      <h2>List of Experiments:</h2>
+      <h2 style="font-size: xx-large">Experiments:</h2>
       <ul class="experiment-list">
-        <li class="experiment">
+        <li class="experiment" id="experiment1">
           <div class="experiment-content">
             <h3 class="experiment-title">&#11166; Experiment 1</h3>
+            <p class="experiment-description">
+              To design and implement the circuits for the following 4-bit Code
+            </p>
+          </div>
+          <div class="experiment-color"></div>
+        </li>
+        <!-- Repeat for each experiment -->
+      </ul>
+      <ul class="experiment-list">
+        <li class="experiment" id="experiment2">
+          <div class="experiment-content">
+            <h3 class="experiment-title">&#11166; Experiment 2</h3>
+            <p class="experiment-description">
+              Design 4 bit BCD and Excess-3 adder using IC 7483.
+            </p>
+          </div>
+          <div class="experiment-color"></div>
+        </li>
+        <!-- Repeat for each experiment -->
+      </ul>
+      <ul class="experiment-list">
+        <li class="experiment" id="experiment3">
+          <div class="experiment-content">
+            <h3 class="experiment-title">&#11166; Experiment 3</h3>
+            <p class="experiment-description">
+              Implementation of logic functions using multiplexer IC 74153 &
+              decoder IC 74138.
+            </p>
+          </div>
+          <div class="experiment-color"></div>
+        </li>
+        <!-- Repeat for each experiment -->
+      </ul>
+      <ul class="experiment-list">
+        <li class="experiment" id="experiment4">
+          <div class="experiment-content">
+            <h3 class="experiment-title">&#11166; Experiment 4</h3>
             <p class="experiment-description">
               This is a brief description of Experiment 1, which explores some
               interesting concept or technique in computer science.
@@ -35,12 +72,12 @@
         <!-- Repeat for each experiment -->
       </ul>
       <ul class="experiment-list">
-        <li class="experiment">
+        <li class="experiment" id="experiment5">
           <div class="experiment-content">
-            <h3 class="experiment-title">&#11166; Experiment 1</h3>
+            <h3 class="experiment-title">&#11166; Experiment 5</h3>
             <p class="experiment-description">
-              This is a brief description of Experiment 1, which explores some
-              interesting concept or technique in computer science.
+              To design and implement 4 bit UP, Down, Controlled UP/Down
+              asynchronous Counter using MS-JK Flip-flop.
             </p>
           </div>
           <div class="experiment-color"></div>
@@ -48,12 +85,12 @@
         <!-- Repeat for each experiment -->
       </ul>
       <ul class="experiment-list">
-        <li class="experiment">
+        <li class="experiment" id="experiment6">
           <div class="experiment-content">
-            <h3 class="experiment-title">&#11166; Experiment 1</h3>
+            <h3 class="experiment-title">&#11166; Experiment 6</h3>
             <p class="experiment-description">
-              This is a brief description of Experiment 1, which explores some
-              interesting concept or technique in computer science.
+              To design and implement 3 bit UP, Down, Controlled UP/Down
+              Synchronous Counter using MS-JK Flip-flop.
             </p>
           </div>
           <div class="experiment-color"></div>
@@ -61,12 +98,11 @@
         <!-- Repeat for each experiment -->
       </ul>
       <ul class="experiment-list">
-        <li class="experiment">
+        <li class="experiment" id="experiment7">
           <div class="experiment-content">
-            <h3 class="experiment-title">&#11166; Experiment 1</h3>
+            <h3 class="experiment-title">&#11166; Experiment 7</h3>
             <p class="experiment-description">
-              This is a brief description of Experiment 1, which explores some
-              interesting concept or technique in computer science.
+              Modulo N asynchronous and synchronous counter (IC 7490 & 74191)
             </p>
           </div>
           <div class="experiment-color"></div>
@@ -74,12 +110,24 @@
         <!-- Repeat for each experiment -->
       </ul>
       <ul class="experiment-list">
-        <li class="experiment">
+        <li class="experiment" id="experiment8">
           <div class="experiment-content">
-            <h3 class="experiment-title">&#11166; Experiment 1</h3>
+            <h3 class="experiment-title">&#11166; Experiment 8</h3>
             <p class="experiment-description">
-              This is a brief description of Experiment 1, which explores some
-              interesting concept or technique in computer science.
+              Design& simulate single bit RAM cell
+            </p>
+          </div>
+          <div class="experiment-color"></div>
+        </li>
+        <!-- Repeat for each experiment -->
+      </ul>
+      <ul class="experiment-list">
+        <li class="experiment" id="experiment9">
+          <div class="experiment-content">
+            <h3 class="experiment-title">&#11166; Experiment 9</h3>
+            <p class="experiment-description">
+              Design& simulate single bit ALU with four functions(AND, OR, XOR,
+              ADD).
             </p>
           </div>
           <div class="experiment-color"></div>
@@ -94,7 +142,7 @@
       <h2 style="text-align: center">Our Team:</h2>
       <div class="team-member-container">
         <div class="team-member">
-          <img class="team-image" src="" alt="Mentor" />
+          <img class="team-image" src="" alt="Developer 1" />
           <h3 class="team-name">Developer 1</h3>
           <p class="team-position">Developer</p>
           <div class="team-social">
@@ -110,7 +158,7 @@
           </div>
         </div>
         <div class="team-member">
-          <img class="team-image" src="" alt="Developer 1" />
+          <img class="team-image" src="" alt="Developer 2" />
           <h3 class="team-name">Developer 2</h3>
           <p class="team-position">Developer</p>
           <div class="team-social">
@@ -126,7 +174,7 @@
           </div>
         </div>
         <div class="team-member">
-          <img class="team-image" src="" alt="Developer 2" />
+          <img class="team-image" src="" alt="Developer 3" />
           <h3 class="team-name">Developer 3</h3>
           <p class="team-position">Developer</p>
           <div class="team-social">
@@ -142,7 +190,7 @@
           </div>
         </div>
         <div class="team-member">
-          <img class="team-image" src="" alt="Developer 3" />
+          <img class="team-image" src="" alt="Developer 4" />
           <h3 class="team-name">Developer 4</h3>
           <p class="team-position">Developer</p>
           <div class="team-social">
@@ -158,7 +206,7 @@
           </div>
         </div>
         <div class="team-member">
-          <img class="team-image" src="" alt="Developer 4" />
+          <img class="team-image" src="" alt="Mentor" />
           <h3 class="team-name">Mentor name</h3>
           <p class="team-position">Mentor</p>
           <div class="team-social">

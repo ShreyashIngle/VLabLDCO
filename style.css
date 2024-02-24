@@ -24,6 +24,7 @@ main {
   background-color: #fff;
   margin: 2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.8%;
 }
 
 main h2 {
@@ -72,13 +73,14 @@ main h2 {
 .experiment-title {
   margin: 0;
   color: #000000;
+  font-size: 20px;
 }
 
 .experiment-description {
   margin: 10px 0;
   margin-left: 50px;
   color: #56529a;
-  font-size: large;
+  font-size: larger;
   text-decoration: none;
 }
 
